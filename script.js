@@ -11,7 +11,7 @@ form.onsubmit = (e)=>{
 }
 
 send.onclick = ()=>{
-  if (input != "") {
+  if (input.value != "") {
     chatbox.innerHTML += '<div class="pembatas"><div class="outgoing">'+input.value+'</div></div>';
     
   
