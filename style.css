@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kotak{
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.kotak .padding{
+  padding: 15px;
+  background: #cecece;
+  border-radius: 5px;
+}
+.kotak .padding .header{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background: #3bf64f;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 5px 5px 0 0;
+}
+.kotak .padding .chatbox{
+  padding: 10px 5px;
+  height: 400px;
+  background: #fff;
+  overflow-y: auto;
+  margin: 5px 0;
+}
+.kotak .input form{
+  padding: 5px;
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kotak .input form input{
+  width: 100%;
+  margin-right: 5px;
+  outline: none;
+  border: 2px solid #cecece;
+  border-radius: 5px 0 0 5px;
+  padding: 10px 5px;
+}
+.kotak .input form input:focus{
+  border: 2px solid green;
+}
+.kotak .input form button{
+  padding: 10px 5px;
+  border: 2px solid #cecece;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  background: #17f209;
+  color: #fff;
+  cursor: pointer;
+}
+.kotak .padding .chatbox .incoming{
+  padding: 10px 5px;
+  border-radius: 0 5px 5px 5px;
+  background: black;
+  color: #fff;
+  width: 150px;
+  margin-top: 5px;
+  word-break: break-all;
+  font-size: 15px;
+}
+.kotak .padding .chatbox .pembatas .outgoing{
+  padding: 10px 5px;
+  border-radius: 5px 0 5px 5px;
+  background: green;
+  color: #fff;
+  max-width: 200px;
+  word-break: break-all;
+  font-size: 15px;
+}
+.kotak .padding .chatbox .pembatas{
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
